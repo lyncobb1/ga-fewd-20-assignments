@@ -1,16 +1,31 @@
 
 body{
-	background-color: #A19C18;
+	background-color: #B2BB31;	
 }
 
-h1, h2, h3, section {
+strong, h1 {
 	text-align: center;
 }
 	
 h2 {
 	font-family: Arial, sans-serif;
 	font-style: normal;
+	font-size: 20px;	
 }
-	
+
+#section {line-height: 1.5;
+   font-size: 18px;
+   }
+
+.right {float: right;
+	clear: both;
+}
+
+ul {font-weight: bold;
+}
+
+nav {text-align: center;
+}
+
 
 
