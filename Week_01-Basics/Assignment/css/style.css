@@ -3,28 +3,41 @@ body{
 	background-color: #B2BB31;	
 }
 
-strong, h1 {
+nav {
+	text-align: center;
+}
+
+h1 {
 	text-align: center;
 }
 	
 h2 {
-	font-family: Arial, sans-serif;
+	font-family: Arial;
 	font-style: normal;
-	font-size: 20px;	
+	font-size: 18px;	
 }
 
-#section {line-height: 1.5;
-   font-size: 18px;
-   }
-
-.right {float: right;
-	clear: both;
+p {
+	font-size: 19px;
+	margin: 10px;
+	padding-bottom: 30px;
 }
 
 ul {font-weight: bold;
+	display: inline;
 }
 
-nav {text-align: center;
+nav a {text-align: center;
+}
+
+#left {float: left;
+margin: 10px;
+clear: both;
+}
+
+#lists {
+display: inline-block;
+clear: both;
 }
 
 
