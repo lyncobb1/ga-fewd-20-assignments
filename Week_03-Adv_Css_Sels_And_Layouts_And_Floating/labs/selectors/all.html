@@ -1,0 +1,192 @@
+<!doctype html>
+<!--
+  Lab: Selectors/All
+
+  In this lab, you will be using this file to practice and demonstrate
+  use of all the advanced CSS selectors and combinators that we have
+  learned about today.
+
+  To complete this lab, do the following:
+
+  1. Do NOT change any of the HTML in this file.
+  2. Open up the CSS file for this document in your text editor
+      1. For each sample HTML segment below in the body, create a corresponding
+         CSS rule for that segment to match the `<a>` element which contains
+         the text "MATCH THIS" in that segment. Set the background-color of that `<a>`
+         element to #00FF00.
+      2. In your rules, try to use all the advanced CSS selector types that
+         we have learned about today:
+          * pseudo-class
+          * attribute
+          * descendant
+          * child
+      3. Test your CSS rules to see if your selectors are correct.
+
+  Note: There is a way to cheat at these exercises and immediately get the
+        answers.  You are encouraged to cheat on SEGMENT 8 - 9 if you can figure out how,
+        but please do not cheat on SEGMENT 1 - 7.  Simply finding the method of
+        cheating is not quite so simple, as it requires some digging around.
+-->
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Lab: Selectors/ChildCombinator</title>
+    <link rel="stylesheet" href="./css/all.css" />
+  </head>
+  <body>
+
+    <!--
+      SEGMENT 1
+
+      Difficulty: Very Easy
+    -->
+    <p class="segment" id="segment1">
+      <a href="./foo">MATCH THIS</a>
+    </p>
+
+    <!--
+      SEGMENT 2
+
+      Difficulty: Very Easy
+    -->
+    <div  class="segment" id="segment2">
+      <p>
+        <a href="./foo">MATCH THIS</a>
+      </p> 
+    </div>
+
+    <!--
+      SEGMENT 3
+
+      Difficulty: Easy
+    -->
+    <div  class="segment" id="segment3">
+      <p>
+        <a href="./foo">MATCH THIS</a>
+      </p>
+      <a href="./foo">DONT MATCH THIS</a>
+    </div>
+
+    <!--
+      SEGMENT 4
+
+      Difficulty: Easy
+    -->
+    <div class="segment" id="segment4">
+      <p>
+        <a href="./foo">DONT MATCH THIS</a>
+      </p>
+      <a href="./foo">MATCH THIS</a>
+    </div>
+
+    <!--
+      SEGMENT 5
+
+      Difficulty: Intermediate
+    -->
+    <div class="segment" id="segment5">
+      <p>
+        <a href="./foo">MATCH THIS</a>
+        <a href="./bar">DONT MATCH THIS</a>
+      </p>
+    </div>
+
+    <!--
+      SEGMENT 6
+
+      Difficulty: Intermediate
+    -->
+    <section class="segment" id="segment6">
+      <article class="stuff1">
+	<p>
+          <a href="./bar">DONT MATCH THIS</a>
+	</p>
+      </article>
+      <article class="stuff2">
+	<p>
+          <a href="./bar">MATCH THIS</a>
+	</p>
+      </article>
+    </section>
+
+    <!--
+      SEGMENT 7
+
+      Difficulty: Intermediate
+    -->
+    <section class="segment" id="segment7">
+      <article class="stuff">
+	<p id="para1">
+          <a href="./bar">DONT MATCH THIS</a>
+	</p>
+      </article>
+      <article class="stuff">
+	<p id="para2">
+          <a href="./bar">MATCH THIS</a>
+	</p>
+      </article>
+    </section>
+
+    <!--
+      SEGMENT 8
+
+      Difficulty: Hard
+      Note:
+        This will require a pseudo-class that was not covered in
+        the lesson, so youi will need to use your Google skills.
+    -->
+    <section class="segment" id="segment8">
+      <article>
+	<p>
+          <a href="./bar">DONT MATCH THIS</a>
+          <a href="./bar">DONT MATCH THIS</a>
+	</p>
+      </article>
+      <article>
+	<p>
+          <a href="./bar">DONT MATCH THIS</a>
+          <a href="./bar">DONT MATCH THIS</a>
+	</p>
+      </article>
+      <article>
+	<p>
+          <a href="./bar">DONT MATCH THIS</a>
+          <a href="./bar">MATCH THIS</a>
+	</p>
+      </article>
+    </section>
+
+    <!--
+      SEGMENT 9
+
+      Difficulty: Expert Level
+      Note:
+        This will require a pseudo-class that was not covered in
+        the lesson, so youi will need to use your Google skills.
+    -->
+    <section class="segment" id="segment9">
+      <article>
+	<p>
+          <a href="./bar">DONT MATCH THIS</a>
+          <a href="./bar">DONT MATCH THIS</a>
+          <a href="./bar">DONT MATCH THIS</a>
+	</p>
+      </article>
+      <article>
+	<p>
+          <a href="./bar">DONT MATCH THIS</a>
+          <a href="./bar">MATCH THIS</a>
+          <a href="./bar">DONT MATCH THIS</a>
+	</p>
+      </article>
+      <article>
+	<p>
+          <a href="./bar">DONT MATCH THIS</a>
+          <a href="./bar">DONT MATCH THIS</a>
+          <a href="./bar">DONT MATCH THIS</a>
+	</p>
+      </article>
+    </section>
+
+  </body>
+</html>

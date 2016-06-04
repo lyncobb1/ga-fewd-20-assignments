@@ -1,0 +1,23 @@
+
+/**
+  The first two segments have already been
+  done to provide an example for you.
+*/
+
+.segment {
+    border: 2px solid #FF0000;
+    width: 50%;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+/* SEGMENT 1 */
+#segment1 a {
+    background-color: #00FF00;
+}
+
+/* SEGMENT 2 */
+#segment2 a {
+    background-color: #00FF00;
+}
+

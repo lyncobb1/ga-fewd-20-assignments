@@ -1,0 +1,14 @@
+
+section#mycontent > article {
+  float: left;
+  width: 200px;
+  border: 2px solid #0088FF;
+  background-color: #FFFF00;
+}
+
+p#othertext {
+    background-color: #CCCCCC;
+}
+
+
+

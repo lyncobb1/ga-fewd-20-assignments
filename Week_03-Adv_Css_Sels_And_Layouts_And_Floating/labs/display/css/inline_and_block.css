@@ -1,0 +1,14 @@
+
+
+.blockelm {
+  background-color: #ED3689;
+  border: 5px solid #000000;
+  margin-bottom: 20px;
+}
+
+.inlineelm {
+  color: #37E637;
+  font-weight: bold;
+}
+
+

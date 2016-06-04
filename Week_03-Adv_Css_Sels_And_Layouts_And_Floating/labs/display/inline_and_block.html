@@ -1,0 +1,42 @@
+<!doctype html>
+<!--
+  Lab: Display/InlineAndBlock
+
+  1. In the CSS file for this lab, try experimenting with the following
+     css properties:
+
+     * `width`
+     * `margin`
+
+     Were you able to notice a difference in behaviour
+     between the inline and the block elements?
+
+  2. Also see if you can change the display type for an element.
+     For example, see if you can change an inline element to a block
+     element, or if you can change a block element to an inline element.
+
+-->
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Lab: Display/Block</title>
+    <link rel="stylesheet" href="./css/inline_and_block.css" />
+  </head>
+  <body>
+
+    <section class="blockelm">This text is inside a block element</section>
+
+    <div class="blockelm">
+      This text is inside a block element.
+      <span class="inlineelm">This text is inside an inline element which is inside a block element.</span>
+      This is still inside a block element here.
+    </div>
+
+    <p class="blockelm">This text is inside a block element.</p>
+
+    <span class="inlineelm">This text is inside an inline element.</span>    
+
+    <a href="./" class="inlineelm">This text is inside an inline element.</a>
+
+  </body>
+</html>
