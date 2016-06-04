@@ -21,3 +21,31 @@
     background-color: #00FF00;
 }
 
+#segment3 > p > a {
+	background-color: #00FF00;
+}
+
+#segment4 > a {
+	background-color: #00FF00;
+}
+
+#segment5 a:first-child {
+	background-color: #00FF00;
+}
+
+#segment6 article.stuff2 a {
+	background-color: #00FF00;
+}
+
+#segment7 #para2 a {
+	background-color: #00FF00;
+
+}
+
+#segment8 article:last-child a:last-child {
+	background-color: #00FF00;
+}
+
+#segment9 article:nth-child(2n+0) a:nth-child(2n+0) {
+	background-color: #00FF00;
+}
