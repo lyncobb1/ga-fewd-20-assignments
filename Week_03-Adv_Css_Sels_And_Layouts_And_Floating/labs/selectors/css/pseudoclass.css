@@ -1,7 +1,15 @@
 
 /** CSS RULES GO IN HERE */
 
+a:hover {
+	background-color: red;
+}
 
+a {
+	text-decoration: none;
+}
 
-
+article.myarticle:last-child:hover {
+	background-color: #FF00B8;
+}
 

@@ -2,6 +2,19 @@
 /** CSS RULES GO IN HERE */
 
 
+section > div > p > a {
+	background-color: #00FF00;
+	font-size: 35px;
+}
 
+section > div a {
+	background-color: #FF0000;
+	font-size: 35px;
+}
+
+section p > a.mylink {
+	background-color: #FF00FF;
+	font-size: 35px;
+}
 
 
