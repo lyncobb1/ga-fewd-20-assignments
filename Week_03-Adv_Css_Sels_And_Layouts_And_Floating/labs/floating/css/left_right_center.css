@@ -1,7 +1,15 @@
 
 section#mycontent > article {
+  float: left;
   background-color: #FFFF00;
+  height: 200px;
+  width: 200px;
+  margin: 20px;
+  border: 1px solid black;
+  text-align: center;
 }
+
+
 
 
 

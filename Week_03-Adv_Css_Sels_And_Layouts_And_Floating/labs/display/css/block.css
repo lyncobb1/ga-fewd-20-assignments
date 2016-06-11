@@ -1,8 +1,10 @@
 
 
 .blockelm {
-  background-color: #ED3689;
+  background-color: #00FF00;
   border: 5px solid #000000;
   margin-bottom: 20px;
+  height: 100px;
+  width: 50%;
 }
 
