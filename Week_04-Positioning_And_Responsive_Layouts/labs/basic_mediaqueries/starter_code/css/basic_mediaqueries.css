@@ -1,0 +1,75 @@
+
+/* See: https://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
+html {
+  box-sizing: border-box;
+}
+
+/* See: https://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+div#box {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  text-align: center;
+  font-weight: bold;
+  color: #FFFFFF;
+  font-size: 2rem;
+  padding: 20px;
+  height: 60%;
+}
+
+/**
+ * Most Laptops and Desktops and
+ * window is not resized to small size
+*/
+@media
+  (min-device-width: 1201px) and
+  (min-width: 641px)
+{
+  div#box {
+    width: 50%;
+    background-color: #0000FF;
+  }
+}
+
+/**
+ * Most Laptops and Desktops and
+ * window is resized to small size
+*/
+@media
+  (min-device-width: 1201px) and
+  (max-width: 640px)
+{
+  div#box {
+    width: 90%;
+    background-color: #008000;
+  }
+}
+
+/**
+ * HTCOne
+ * Sony Xperia
+ * HTC Droid DNA
+ * Samsung Galaxy S4
+ * Sony Xperia Z
+ */
+@media
+  only screen and (-webkit-min-device-pixel-ratio: 3) and (max-device-width:1920px)
+{
+  div#box {
+    width: 90%;
+    background-color: #FF0000;
+  }
+}

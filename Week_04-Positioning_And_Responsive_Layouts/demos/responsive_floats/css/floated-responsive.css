@@ -1,0 +1,94 @@
+
+/* See: https://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
+html {
+  box-sizing: border-box;
+}
+
+/* See: https://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+h1 {
+  text-align: center;
+}
+
+#columns {
+  border: 4px solid #000000;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+}
+
+#columns > .column {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 20px;
+}
+
+/**
+ * This targets the following:
+ *
+ * - Non-Handheld devices that have not had the window
+ *   resized to a very small size (640px)
+ *
+ * Such non-handheld devices include:
+ *
+ * - Laptops
+ * - Desktop Monitors
+ * - Printed Pages
+ *
+ */
+@media
+  (min-device-width: 1201px) and
+  (min-width: 641px)
+{
+  #columns > .column {
+    border: 4px solid #FF00FF;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 23%;
+    min-width: 240px;
+  }
+}
+
+/**
+ * This targets the following
+ *
+ * - Handheld devices
+ * - Any device where the width of the browser window is less than 640px
+ */
+@media
+  screen and (max-device-width: 1200px),
+  screen and (max-width: 640px)
+{
+  #columns > .column {
+    border: 4px dotted #000000;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+  }
+}
+
+#columns > .column:nth-child(1) {
+  background-color: #FF0000;
+}
+
+#columns > .column:nth-child(2) {
+  background-color: #00FF00;
+}
+
+#columns > .column:nth-child(3) {
+  background-color: #0000FF;
+}
+
+#columns > .column:nth-child(4) {
+  background-color: #FFFF00;
+}
+
+.clearit {
+  clear: both;
+}
+

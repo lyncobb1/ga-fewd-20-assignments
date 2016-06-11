@@ -1,0 +1,129 @@
+
+/* See: https://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
+html {
+  box-sizing: border-box;
+}
+
+/* See: https://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+  background-color: #111111;
+}
+
+#galaxy {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 500px;
+  height: 500px;
+  transform: translate(-50%, -50%);
+}
+
+#galaxy > #sun {
+  background-color: #FF8080;
+  background-image: radial-gradient(circle at 100px 100px, #FF8080, #000000);
+  border-radius: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+}
+
+#galaxy > #axis {
+  width: 1px;
+  height: 140%;
+  border: 1px dotted #FF8080;
+  position: absolute;
+  top: -20%;
+  left: 50%;
+  z-index: 1;
+  transform: rotate(16deg);
+}
+
+#galaxy > .planets {
+  border-radius: 100%;
+  position: absolute;
+}
+
+#galaxy > #planet1 {
+  background-color: #FF5500;
+  background-image: radial-gradient(circle at 0px 0px, #FF5500, #000000);
+  top: 100px;
+  left: 0px;
+  width: 40px;
+  height: 40px;
+  z-index: 1;
+}
+
+#galaxy > #planet2 {
+  background-color: #A000FF;
+  background-image: radial-gradient(circle at 5px 5px, #A000FF, #000000);
+  top: 80px;
+  left: -200px;
+  width: 60px;
+  height: 60px;
+  z-index: 100;
+}
+
+#galaxy > #planet3 {
+  background-color: #00CAFF;
+  background-image: radial-gradient(circle at 10px 10px, #00CAFF, #000000);
+  top: 200px;
+  left: -140px;
+  width: 100px;
+  height: 100px;
+  z-index: 100;
+}
+
+#galaxy > #planet4 {
+  background-color: #00FF00;
+  background-image: radial-gradient(circle at 20px 20px, #00FF00, #000000);
+  top: 280px;
+  left: 120px;
+  width: 140px;
+  height: 140px;
+  z-index: 100;
+}
+
+#galaxy > #planet5 {
+  background-color: #FF3800;
+  background-image: radial-gradient(circle at -120px 20px, #FF3800, #000000);
+  top: 310px;
+  right: -40px;
+  width: 100px;
+  height: 100px;
+  z-index: 100;
+}
+
+#galaxy > #planet6 {
+  background-color: #FFDC00;
+  background-image: radial-gradient(circle at -200px 20px, #FFDC00, #000000);
+  top: 260px;
+  right: -200px;
+  width: 80px;
+  height: 80px;
+  z-index: 100;
+}
+
+#galaxy > #planet7 {
+  background-color: #00FFE4;
+  background-image: radial-gradient(circle at -200px 20px, #00FFE4, #000000);
+  top: 220px;
+  right: -40px;
+  width: 40px;
+  height: 40px;
+  z-index: 1;
+}
+

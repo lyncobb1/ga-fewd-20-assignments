@@ -1,0 +1,36 @@
+
+/* See: https://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
+html {
+  box-sizing: border-box;
+}
+
+/* See: https://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  padding: 0px;
+  margin: 0px;
+  font-size: 2rem;
+}
+
+#box {
+  background-color: RGBA(255, 0, 0, .8);
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 3rem;
+  text-align: center;
+  border-radius: 100%;
+  width: 300px;
+  height: 300px;
+  line-height: 300px;
+  position: fixed;
+  top: 100px;
+  right: 100px;
+}
+
