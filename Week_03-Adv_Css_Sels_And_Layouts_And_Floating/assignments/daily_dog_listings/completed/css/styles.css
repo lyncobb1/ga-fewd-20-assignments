@@ -1,0 +1,95 @@
+
+html {
+	box-sizing: border-box;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+body {
+	padding: 0px;
+	margin: 0px;
+}
+
+main {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1124px;
+	margin-top: 24px;
+	margin-bottom: 24px;
+}
+
+h1 {
+	padding: 30px;
+	text-align: center;
+	border: 5px black solid;
+	color: black;
+	margin: 10px;
+}
+
+p {
+   margin-right: 10px;
+   line-height: 1.75em;
+   padding: 10px;
+   margin: 10px;
+}
+
+img#left {
+	height: 200px;
+	width: 200px;
+	float: left;
+	padding-top: 10px;
+	margin: 10px;
+}
+
+img#right {
+	float: right;
+	height: 200px;
+	width: 200px;
+	padding-top: 10px;
+	margin: 10px;
+}
+
+#firstparag, #secondparag {
+	border: 10px black solid;
+	margin: 10px;
+}
+
+nav {
+	border: 10px black solid;
+	padding: 60px;
+	margin: 10px;
+	text-align: center;
+}
+
+#Previous {
+	float:left;
+}
+
+#Next {
+	float: right;
+}
+
+#Home {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+nav a {
+	background-color: red;
+	color: white;
+	padding: 15px;
+	border-radius: 10px;
+	text-align: center;
+	text-decoration: none;
+	min-width: 100px;
+}
+
+nav a:hover {
+	background-color: blue;
+}
+
+.clearfix {
+	clear: both;
+}

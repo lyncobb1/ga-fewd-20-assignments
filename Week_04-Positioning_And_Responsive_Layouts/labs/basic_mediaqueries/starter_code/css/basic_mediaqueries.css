@@ -28,48 +28,16 @@ div#box {
   font-size: 2rem;
   padding: 20px;
   height: 60%;
+  width: 90%;
+  background-color: blue;
 }
 
-/**
- * Most Laptops and Desktops and
- * window is not resized to small size
-*/
-@media
-  (min-device-width: 1201px) and
-  (min-width: 641px)
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px)
 {
   div#box {
-    width: 50%;
-    background-color: #0000FF;
+    background-color: #FF00FF;
   }
 }
 
-/**
- * Most Laptops and Desktops and
- * window is resized to small size
-*/
-@media
-  (min-device-width: 1201px) and
-  (max-width: 640px)
-{
-  div#box {
-    width: 90%;
-    background-color: #008000;
-  }
-}
-
-/**
- * HTCOne
- * Sony Xperia
- * HTC Droid DNA
- * Samsung Galaxy S4
- * Sony Xperia Z
- */
-@media
-  only screen and (-webkit-min-device-pixel-ratio: 3) and (max-device-width:1920px)
-{
-  div#box {
-    width: 90%;
-    background-color: #FF0000;
-  }
-}
