@@ -10,7 +10,8 @@ section#mycontent > article {
 }
 
 
-
-
+#clearit {
+	clear: both;
+}
 
 

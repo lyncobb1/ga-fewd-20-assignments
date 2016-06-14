@@ -3,18 +3,22 @@
 
 
 section > div > p > a {
-	background-color: #00FF00;
+	background-color: #00000;
+	color: white;
 	font-size: 35px;
 }
 
-section > div a {
-	background-color: #FF0000;
-	font-size: 35px;
-}
-
-section p > a.mylink {
+section > div  a {
 	background-color: #FF00FF;
 	font-size: 35px;
 }
 
+section p > a.mylink {
+	background-color: #0000FF;
+	font-size: 35px;
+}
+
+a.mylink:hover {
+	background-color: green;
+}
 

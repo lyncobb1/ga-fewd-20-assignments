@@ -26,6 +26,7 @@ h1 {
 	border: 5px black solid;
 	color: black;
 	margin: 10px;
+	border-radius: 15px;
 }
 
 p {
@@ -54,6 +55,7 @@ img#right {
 #firstparag, #secondparag {
 	border: 10px black solid;
 	margin: 10px;
+	border-radius: 15px;
 }
 
 nav {
@@ -61,6 +63,7 @@ nav {
 	padding: 60px;
 	margin: 10px;
 	text-align: center;
+	border-radius: 15px;
 }
 
 #Previous {
@@ -84,6 +87,7 @@ nav a {
 	text-align: center;
 	text-decoration: none;
 	min-width: 100px;
+	width: 150px;
 }
 
 nav a:hover {

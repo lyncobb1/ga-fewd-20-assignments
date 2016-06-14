@@ -3,21 +3,27 @@
 
 section p#para1 a {
 	background-color: #0000FF;
-	color: #FF0000;
-	font-size: 30px;
+	color: white;
+	font-size: 45px;
 }
 
 section p#para2 a {
-	color: #0000FF;
+	color: #FF0000;
 	font-size: 30px;
 }
 
 section p#para3 a {
 	color: #00FF00;
-	font-size: 30px;
+	font-size: 75px;
 }
 
 section a:hover {
 	font-weight: bold;
+}
+
+section div#para4 a {
+	background-color: blue;
+	color: white;
+	font-size: 48px;
 }
 

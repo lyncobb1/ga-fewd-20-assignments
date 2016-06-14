@@ -2,7 +2,7 @@
 /** CSS RULES GO IN HERE */
 
 a:hover {
-	background-color: red;
+	background-color: green;
 }
 
 a {
@@ -10,6 +10,6 @@ a {
 }
 
 article.myarticle:last-child:hover {
-	background-color: #FF00B8;
+	background-color: #FF0000;
 }
 
