@@ -20,12 +20,12 @@ body {
 }
 
 #box {
-  background-color: RGBA(255, 0, 0, .8);
+  background-color: RGBA(255, 0, 255, .8);
   color: #FFFFFF;
   font-weight: bold;
-  font-size: 3rem;
+  font-size: 4rem;
   text-align: center;
-  border-radius: 20%;
+  border-radius: 25%;
   width: 300px;
   height: 300px;
   line-height: 300px;

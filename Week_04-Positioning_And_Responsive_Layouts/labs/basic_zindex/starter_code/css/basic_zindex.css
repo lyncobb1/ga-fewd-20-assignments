@@ -34,7 +34,7 @@ body {
 }
 
 #boxes > article:nth-child(1) {
-  background-color: #FF0000;
+  background-color: #FF00FF;
   width: 100px;
   height: 100px;
   z-index: 10;
