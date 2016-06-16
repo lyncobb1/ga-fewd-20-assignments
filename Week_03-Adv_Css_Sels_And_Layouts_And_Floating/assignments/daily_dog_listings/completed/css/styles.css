@@ -61,7 +61,7 @@ img#right {
 nav {
 	border: 10px black solid;
 	margin: 10px;
-	padding: 50px;
+	padding: 45px;
 	text-align: center;
 	border-radius: 15px;
 }
@@ -77,17 +77,16 @@ nav {
 #Home {
 	margin-left: auto;
 	margin-right: auto;
-	margin-bottom: 5px;
 }
 
 nav a {
 	background-color: red;
 	color: white;
-	padding: 15px;
+	padding: 10px;
 	border-radius: 10px;
 	text-decoration: none;
-	min-width: 100px;
-	width: 125px;
+	min-width: 75px;
+	width: 100px;
 	display: inline-block;
 }
 
