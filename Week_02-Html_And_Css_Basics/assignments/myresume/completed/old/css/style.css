@@ -1,9 +1,11 @@
 
 body{
-	background-color: #B2BB31;	
+	background-color: #B2BB31;
+	height: 100%;	
 }
 
-strong {font-style: italic;
+strong {
+	font-style: italic;
 	font-size: 20px;
 }
 
@@ -18,7 +20,6 @@ nav, h1 {
 	
 h2 {
 	font-family: Arial;
-	font-style: normal;
 	font-size: 18px;	
 }
 
@@ -28,45 +29,24 @@ p {
 	margin: 10px;
 }
 
-#introduction {border: 2px black solid;
+#introduction {
 	float: left;
-	margin-bottom: 15px;
-	padding-bottom: 0;
 }
 
-#left {float: left;
-margin: 5px;
-height: 150px;
-width: 175px;
-margin-right: 15px;
+#left {
+	float: left;
+	margin: 15px;
+	height: 175px;
+	width: 175px;
+	margin-right: 15px;
 }
 
-#lists {
-display: inline;
-text-align: center;
-}
-
-#facebook {
-	height: 50px;
-	width: 50px;
-	margin-right: 10px;
-}
-#twitter {
-	height: 50px;
-	width: 50px;
-	margin-right: 10px;
-}
-#instagram {
+#facebook, #twitter, #instagram, #linkedin {
 	height: 50px;
 	width: 50px;
 	margin-right: 10px;
 }
 
-#linkedin {
-	height: 50px;
-	width: 50px;
-	margin-right: 10px;
-}
 
 
 
