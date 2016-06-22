@@ -48,19 +48,30 @@ h3 {
     font-size: 16px;
 }
 
-#portfolio {
-    margin-left: 40px;
-}
-
-#image {
+div#image {
 	text-align: center;
-	width: 40%
+	width: 90%;
+	max-width: 580px;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+div#image img {
+	width: 100%;
 }
 
 h4 {
 	font-size: 18px;
 }
 
-@media only screen and (min-width: 375px) and (max-width: 667px);
+@media
+  only screen and (max-device-width: 1200px),
+  only screen and (max-width: 667px)
+{
+	div#image {
+		width: 100%;
+		max-width: none;
+	}
+}
+
+
