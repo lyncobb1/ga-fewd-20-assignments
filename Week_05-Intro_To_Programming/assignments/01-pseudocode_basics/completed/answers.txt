@@ -1,0 +1,29 @@
+Problem 1 = True
+
+Problem 2 = 1
+
+Problem 3 = 120
+
+Problem 4 = 34
+
+Problem 5 = 3
+
+Problem 6 = cannot be determined
+
+Problem 7 = 1
+
+Problem 8 = false
+
+Problem 9 =
+
+Problem 10 =
+
+Problem 11 =
+
+Problem 12 =
+
+Problem 13 =
+
+Problem 14 = 49
+
+Problem 15 = 

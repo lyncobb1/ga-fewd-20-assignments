@@ -1,0 +1,38 @@
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+section > article {
+  float: left;
+  border: 2px solid #000000;
+  margin: 20px;
+  height: 200px;
+  width: 200px;
+  line-height: 200px;
+  text-align: center;
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 2.5rem;
+  border-radius: 50%;
+}
+
+section > article#redbox {
+  background-color: #FF0000;
+}
+
+section > article#greenbox {
+  background-color: #008000;
+}
+
+section > article#bluebox {
+  background-color: #0000FF;
+}
+
+.clearit {
+  clear: both;
+}
