@@ -3,13 +3,11 @@
 
 
 function main () {
-  var userValue;
-
-  userValue = window.prompt("Hello! Please enter a value!");
-  window.alert("You entered: " + userValue);
-
-  return false;
+  var val1 = window.prompt ("Enter the first value");
+  var val2 = window.prompt ("Enter the second value");
+  var finalVal = parseInt(val1) + parseInt(val2);
+  window.alert ("Final Value Is" + finalVal);
 }
 
-
-window.addEventListener("load", main);
+  
+window.addEventListener("load" , main);
