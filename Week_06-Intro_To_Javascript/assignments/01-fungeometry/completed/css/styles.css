@@ -1,0 +1,23 @@
+
+html {
+	box-sizing: border-box;
+	height: 100%;
+}
+
+*,*:before, *:after {
+	box-sizing: inherit;
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
+#BoxBackground {
+	background color: 255, 0, 0, .08;
+	height: 500px;
+	width: 500px;
+	position: absolute;
+} 
+
+

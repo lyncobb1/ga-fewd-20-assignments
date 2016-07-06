@@ -1,0 +1,94 @@
+
+/* See: https://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
+html {
+  box-sizing: border-box;
+}
+
+/* See: https://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+  background-image: radial-gradient(circle, #FF0000, #FF00FF, #0000FF);
+  background-attachment: fixed;
+}
+
+#text {
+  color: RGBA(0, 0, 170, .2);
+  text-align: justify;
+  font-size: 1rem;
+  line-height: 1.6rem;
+  font-family: serif;
+  letter-spacing: .6rem;
+  text-transform: uppercase;
+}
+
+#grid {
+  z-index: 100;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 800px;
+  height: 800px;
+  padding: 40px;
+  transform: translate(-50%, -50%);
+}
+
+#grid .diamond {
+  width: 50%;
+  height: 50%;
+  border: 1px solid #000000;
+  float: left;
+  transform: rotate(45deg);
+  background-color: RGBA(0, 0, 0, .3);
+}
+
+#grid .diamond:nth-child(1) {
+  border-left: 2px solid RGBA(255, 255, 0, .8);
+}
+
+#grid .diamond:nth-child(2) {
+  border-top: 2px solid RGBA(255, 255, 0, .8);
+}
+
+#grid .diamond:nth-child(3) {
+  border-bottom: 2px solid RGBA(255, 255, 0, .8);
+}
+
+#grid .diamond:nth-child(4) {
+  border-right: 2px solid RGBA(255, 255, 0, .8);
+}
+
+#grid .diamond p {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  border: 1px dotted #000000;
+  margin: 0px;
+}
+
+#instructions {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  text-transform: uppercase;
+  font-size: 2rem;
+}
+
+#instructions h2 {
+  padding: 0px;
+  margin: 0px;
+  color: #000000;
+}
+
+.clearit {
+  clear: both;
+}
