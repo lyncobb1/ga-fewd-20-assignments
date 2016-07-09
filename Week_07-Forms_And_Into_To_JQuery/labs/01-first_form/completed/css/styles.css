@@ -32,6 +32,10 @@ textarea, select {
   height: 8rem;
 }
 
+label {
+  color: #FF0000;
+}
+
 input, label, textarea, select {
   text-transform: uppercase;
   font-family: sans-serif;
