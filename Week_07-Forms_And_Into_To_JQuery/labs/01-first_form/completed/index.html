@@ -8,6 +8,7 @@
   <body>
     <form>
 
+    <fieldset> 
       <label for="username">Username</label>
       <input 
         id="username"
@@ -18,7 +19,9 @@
         value="timmie" 
         placeholder="Enter your username" 
         readonly="readonly" />
+    </fieldset>
       
+    <fieldset>
       <label for="password">Password</label>
       <input
         id="username"
@@ -27,12 +30,17 @@
         value="123456" 
         placeholder="Enter your password" 
         required="required" />
+    </fieldset>
       
+    
+    <fieldset>
       <label for="bio">Bio</label>
       <textarea placeholder="Enter a bio" id="bio" name="bio">
       	Hi, my name is Timmie. I can't wait for my vacation!
       </textarea>
+    </fieldset>
       
+    <fieldset>
       <label for="animals">Favorite Animal</label>
       <select id="animal" name="animal" size="4" multiple="multiple">
         <optgroup label="Dogs">
@@ -43,14 +51,18 @@
         <option value="pidgeon">Pidgeon</option>
         </optgroup> 	
       </select>
+    </fieldset>
       
-     <label for="newsletter">Receive Newsletter</label> 
+    <fieldset> 
+      <label for="newsletter">Receive Newsletter</label> 
       <input 
         type="checkbox" 
         id="newsletter" 
         name="newsletter"
         checked="checked" />
+    </fieldset>
 
+    <fieldset>
       <label for="pizza">Pizza</label>
       <input
       	type="radio"
@@ -64,7 +76,10 @@
       	id="food_burritos"
       	name="food"
       	value="burritos" />
+    </fieldset>
 
+     
+    <fieldset>
       <label for="age">Age</label>
       <input 
         type="number" 
@@ -73,14 +88,20 @@
         placeholder="Enter your age"
         id="age"
         name="age" /> 
+    </fieldset>
 
+      
+    <fieldset>
       <label for="Date and Time">Date and Time</label>
       <input
         id="birthday"
         name="birthday"
         type="datetime-local" />
+    </fieldset>
 
-        <input type="submit" value="Create Account" />
+    <fieldset>
+       <input type="submit" value="Create Account" />
+    </fieldset>
       
     </form>
   </body>

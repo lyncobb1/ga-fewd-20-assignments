@@ -33,7 +33,13 @@ textarea, select {
 }
 
 label {
-  color: #FF0000;
+  color: #FFFFFF;
+}
+
+fieldset {
+  border: none;
+  padding: 0px;
+  margin: 0px;
 }
 
 input, label, textarea, select {
