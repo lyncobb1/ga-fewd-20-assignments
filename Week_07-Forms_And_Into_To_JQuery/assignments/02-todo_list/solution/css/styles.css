@@ -1,0 +1,84 @@
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+main {
+  width: 40%;
+  max-width: 640px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+form {
+  border: 1px dotted #333333;
+  padding: 2rem;
+}
+
+h1 {
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+fieldset {
+  border: 0px;
+  padding: 0px;
+  margin: 0rem 0rem .5rem 0rem;
+}
+
+label {
+  padding-left: .8rem;
+}
+
+input,
+label,
+textarea,
+select {
+  display: block;
+  font-size: 1.1rem;
+  width: 100%;
+}
+
+input,
+textarea,
+select {
+  border: 1px solid #333333;
+  padding: .8rem;
+  border-radius: .3rem;
+}
+
+fieldset input[type="submit"] {
+  margin-top: 1rem;
+}
+
+ol {
+  font-size: 1.5rem;
+  border: 1px dotted #333333;
+  margin: 2rem 0rem 0rem 0rem;
+  padding: 0px;
+}
+
+ol li {
+  padding: .5rem;
+  list-style-type: none;
+  margin: 0px;
+}
+
+ol li:nth-child(2n+0) {
+  background-color: #FFFFEE;
+}
+
+ol li:nth-child(2n+1) {
+  background-color: #EEEEEE;
+}

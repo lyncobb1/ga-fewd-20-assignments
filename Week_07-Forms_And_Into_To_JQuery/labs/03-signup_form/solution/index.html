@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>HTML Forms</title>
+    <link rel="stylesheet" type="text/css" href="./css/styles.css" />
+  </head>
+  <body>
+    <form>
+      <fieldset>
+        <label for="form_username">Username</label>
+        <input
+            class="field"
+            id="form_username"
+            name="username"
+            type="text"
+            placeholder="Enter your username" required />
+      </fieldset>
+      <fieldset>
+        <label for="form_email">Email</label>
+        <input
+            class="field"
+            id="form_email"
+            name="email"
+            type="email"
+            placeholder="Enter your email" required />
+      </fieldset>
+      <fieldset>
+        <label for="form_password">Password</label>
+        <input
+            class="field"
+            id="form_password"
+            name="password"
+            type="password"
+            placeholder="Enter your password"
+            minlength="3"
+            maxlength="7" required />
+      </fieldset>
+      <fieldset>
+        <label for="form_birthday">Birthday</label>
+        <input
+            class="field"
+            id="form_birthday"
+            name="birthday"
+            type="date"
+            placeholder="Enter your birthday" />
+      </fieldset>
+      <fieldset>
+        <label for="form_animal">Favorite Animal</label>
+        <select class="field" id="form_animal" name="animal" required>
+          <option value="" disabled selected>Select Animal</option>
+          <option value="dog">Dog</option>
+          <option value="cat">Cat</option>
+          <option value="bird">Bird</option>
+        </select>
+      </fieldset>
+      <fieldset>
+        <label for="form_bio">Short Bio</label>
+        <textarea
+            class="field"
+            id="form_bio"
+            name="bio"
+            placeholder="Enter a short bio" required></textarea>
+      </fieldset>
+      <fieldset>
+        <label for="form_newsletter">Receive newsletter?</label>
+        <input id="form_newsletter" name="newsletter" type="checkbox" />
+      </fieldset>
+      <fieldset>
+        <label for="form_age">Age</label>
+        <input
+            id="form_age"
+            name="age"
+            class="field"
+            type="number"
+            min="1"
+            max="120" />
+      </fieldset>
+      <fieldset>
+        <input
+            class="submitter"
+            type="submit"
+            value="Create Account" />
+      </fieldset>
+    </form>
+  </body>
+</html>

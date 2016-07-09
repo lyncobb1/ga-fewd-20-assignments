@@ -1,0 +1,39 @@
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-size: 4rem;
+}
+
+main {
+  margin-top: 3rem;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+main p {
+  line-height: 3rem;
+  padding: 3rem 2rem 3rem 2rem;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  border: 3px solid #000000;
+}
+
+#question {
+  background-image: linear-gradient(135deg, #EEEEFE 0%, #6393C1 100%);
+}
+
+#answer {
+  background-image: linear-gradient(135deg, #FEEEEE 0%, #FF5C5C 100%);
+  display: none;
+}
+

@@ -1,0 +1,64 @@
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  background-color: #000000;
+}
+
+form {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 4rem;
+  width: 40%;
+  max-width: 640px;
+}
+
+.field, .submitter {
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+.field, .submitter, label {
+  font-family: sans-serif;
+  display: block;
+  font-size: 2rem;
+  width: 100%;
+}
+
+fieldset {
+  width: 100%;
+  border: 0px;
+  margin-bottom: .3rem;
+}
+
+label {
+  color: #FFFFFF;
+  padding-left: 1rem;
+  text-transform: uppercase;
+}
+
+input[type="checkbox"] {
+  width: 60px;
+  height: 60px;
+}
+
+.field {
+  border: .3rem solid #000000;
+}
+
+.field:focus {
+  border: .3rem solid RGBA(0, 255, 0, .8);
+}
+
+.submitter {
+  padding: 1.5rem;
+}

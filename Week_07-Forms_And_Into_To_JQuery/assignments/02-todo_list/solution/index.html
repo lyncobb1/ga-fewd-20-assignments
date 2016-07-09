@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>HTML Forms</title>
+    <link rel="stylesheet" type="text/css" href="./css/styles.css" />
+    <script
+        src="https://code.jquery.com/jquery-3.1.0.min.js"
+        integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="
+        crossorigin="anonymous"></script>
+    <script type="text/javascript" src="./js/todo.js"></script>
+  </head>
+  <body>
+
+    <main>
+      <h1>Todo List</h1>
+
+      <form id="todoForm">
+        <fieldset>
+          <label for="task">Task</label>
+          <textarea id="task" name="task" placeholder="Enter task" required></textarea>
+        </fieldset>
+        <fieldset>
+          <label for="priority">Priority</label>
+          <select id="priority" name="priority" required>
+            <option value="Low">Low</option>
+            <option value="Normal" selected>Normal</option>
+            <option value="High">High</option>
+          </select>
+        </fieldset>
+        <fieldset>
+          <label for="due">Due Date</label>
+          <input type="date" id="due" name="due" required />
+        </fieldset>
+        <fieldset>
+          <input type="submit" value="Add" required />
+        </fieldset>
+      </form>
+
+      <ol id="todoItems">
+        <li>Priority: Normal; Due: 2016-07-27; Task: Get groceries;</li>
+        <li>Priority: High; Due: 2016-07-28; Task: Pay rent;</li>
+      </ol>
+    </main>
+
+  </body>
+</html>
