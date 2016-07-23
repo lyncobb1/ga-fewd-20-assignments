@@ -1,0 +1,30 @@
+html {
+	box-sizing: border-box;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+ }
+
+ html, body {
+ 	height: 100%;
+ }
+	
+body {
+	background-color: #efefef;
+	margin: 0px;
+	padding: 0px;
+}
+	
+
+h1 {
+	background-color: white;
+	color: red;
+}
+
+h2 {
+	color: black;
+	text-align: center;
+	padding: 0px;
+}
+
