@@ -1,0 +1,30 @@
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.boxes {
+  width: 200px;
+  height: 200px;
+  margin: 30px;
+  border: 1px solid #000000;
+  padding: 20px;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+#box1 {
+  background-color: #0000FF;
+}
+
+#box2 {
+  background-color: #FFFF00;
+}
+
+#box2.userclicked {
+  background-color: #FF0000;
+}
