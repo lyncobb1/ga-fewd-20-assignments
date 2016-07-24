@@ -15,16 +15,49 @@ body {
 	margin: 0px;
 	padding: 0px;
 }
-	
+
+img#logo {
+	display: block;
+	height: 125px;
+	width: 200px;
+	float: left;
+}
+
+div#toptext {
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	text-align: center;
+	height: 100px;
+	padding: 20px;
+}
 
 h1 {
-	background-color: white;
-	color: red;
+	font-family: Kashaun-script, Verdana, sans-serif;
+	color: #FF0000;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-bottom: 10px;
 }
 
 h2 {
 	color: black;
-	text-align: center;
-	padding: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
 }
+
+div.clearit {
+	clear: both;
+}
+
+img#Dogfound {
+	height: 300px;
+	width: 300px;
+}
+
+
+
+
+
 
