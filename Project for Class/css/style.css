@@ -18,8 +18,8 @@ body {
 
 img#logo {
 	display: block;
-	height: 125px;
-	width: 200px;
+	height: 165px;
+	width: 250px;
 	float: left;
 }
 
@@ -36,9 +36,9 @@ div#toptext {
 h1 {
 	font-family: Kashaun-script, Verdana, sans-serif;
 	color: #FF0000;
-	margin-top: 0px;
+	margin-top: 10px;
 	margin-bottom: 0px;
-	padding-bottom: 10px;
+	padding-bottom: 20px;
 }
 
 h2 {
