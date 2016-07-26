@@ -40,18 +40,19 @@ html {
 
  img#Vetvisit {
  	float: left;
+ 	display: block;
  	margin-top: 0px;
- 	width: 650px;
+ 	width: 550px;
  	height: 550px;
  	border: 1px solid black;
- 	display: block;
  }
 
  p {
  	float: right;
+ 	display: inline-block;
  	line-height: 1.5em;
- 	width: 610px;
- 	height: 250px;
+ 	width: 500px;
+ 	height: 500px;
  	background-color: white;
  	color: black;
  	border: 1px solid black;
@@ -59,7 +60,9 @@ html {
  }
 
 
-
+div#clearit {
+	clear: both;
+}
 
 
  	
