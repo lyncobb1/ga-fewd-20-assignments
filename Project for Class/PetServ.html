@@ -8,11 +8,94 @@
 	<meta name="keywords"
 	  content="lost dog or pet, register dog or cat, pet chip, adopt pet" />
     <link rel="stylesheet" type="text/css" href="css/petserv.css" />
+    <script
+        src="https://code.jquery.com/jquery-3.1.0.min.js"
+        integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="
+        crossorigin="anonymous"></script>
+    <script type="text/javascript" src="./js/petserv.js"></script>
 </head>
 <header>
-	
+  <h1>Pet Registry</h1>
+  <hr />	
 </header>
-<body>
+<form id="mainform">
+  <body>
+   <fieldset>
+     <p><b>Begin with creating a username and password</b>
+     <p>Username:
+       <input 
+         id="username" 
+         type="text" 
+         name="username" 
+         size="20" 
+         maxlength="35" 
+         placeholder="Enter your username"/>
+     </p>
 
-</body>
+     <p>Password:
+       <input 
+         id="password" 
+         type="text" 
+         name="password" 
+         size="20" 
+         maxlength="35" 
+         placeholder="Enter a password"/>
+     </p>
+     <input type="submit" name="Submit"
+     value="Submit" />
+   </fieldset>
+
+    <fieldset>
+      <legend><b>Contact details</b></legend>
+        <label>Email:
+        <input type="text" name="email" /></label>
+        <label>Mobile:
+        <input type="text" name="mobile" /></label>
+        <label>Telephone:
+        <input type"text" name="telephone" /><label>
+    </fieldset>
+   
+   <fieldset>
+      <legend><b>Type of Pet</b></legend>
+       <select id="type of pet"
+       size="3"
+       multiple="multiple"> 
+         <option value="dog">Dog</option>
+         <option value="cat">Cat</option>
+         <option value="turtle">Turtle</option>
+         <option value="snake">Snake</option>
+         <option value="hamster">Hamster</option>	
+      </select>
+    </fieldset>
+
+    <fieldset>
+      <legend><b>Report Details</b></legend>
+       <select id="report details"
+       size="3"
+       multiple="multiple"> 
+         <option value="lost">Lost</option>
+         <option value="found">Found</option>
+         <option value="stolen">Stolen</option>	
+      </select>
+    </fieldset>
+
+    <fieldset>
+      <legend><b>Date of Occurrence</b></legend>
+      <input
+        id="date"
+        name="date"
+        type="date" />
+    </fieldset>
+
+    <fieldset>
+      <legend><b>Zip Code or Location </b></legend>
+        <label>Zip Code:
+        <input id="zip" type="text" name="zip code" /></label>
+        <input type="submit" name="Submit"
+        value="Submit" />
+    </fieldset>
+
+    <div id="response"></div>
+  </body>
+ </form>
 </html>
