@@ -80,16 +80,17 @@ nav a {
 }
 
 nav a:hover {
-	background-color: blue;
+	background-color: black;
 }
 
 img#Dogfound {
-	height: 900px;
+	height: 800px;
 	width: 100%;
 }
 
-div#footer{
-	text-align: center;
+address {
+	background-color: #FF0000;
+	color: white;
 }
 
 
